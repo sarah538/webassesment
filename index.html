@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="./css/mystlyes.css"/>
+
+    <title>Vintage Cars</title>
+    
+    
+  </head>
+  <body>
+    <!-- Navigation bar starts here -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-grey navbarstyles">
+        <div class="container-fluid">
+          <!-- <nav class="navbar navbar-dark bg-dark"> -->
+          <!-- <a class="navbar-brand" href="#">VC</a> -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <img src= "images/logo.jpeg" alt="VintageCarlogo" class="logo">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+          
+                
+                <a class="nav-link active" aria-current="page" href="#carlisting">Cars</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#enquiries">Enquiries</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- Navigation bar ends here -->
+
+    <!-- Main heading starts here -->
+     <h1 class="text-center">Vintage Cars For Hire</h1>
+    <!-- Main heading ends here -->
+
+    <!-- Cars listing starts here -->
+    
+
+    <section class="container mt-5 imagesstyle" id="carlisting">
+      <h4>Cars Listing</h4>
+      <div class="row">
+        <!-- Car 1 starts here -->
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="images/image1.jpeg" class="card-img-top" alt="VintageCar1">
+            <div class="card-body">
+              <p class="card-text">Vintage Rolls Royce. 
+                <br>Type: Convertible <br> Doors: Two</p>
+            </div>
+          </div>
+        </div>
+        <!-- Car 1 ends here -->
+        <!-- Car 2 starts here -->
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="images/image2.jpeg" class="card-img-top" alt="VintageCar2">
+            <div class="card-body">
+              <p class="card-text">Vintage Volkswagon Beetle. 
+                <br>Type: Coupe <br> Doors: Two</p>
+            </div>
+          </div>
+        </div>
+        <!-- Car 2 ends here -->
+        <!-- Car 3 starts here -->
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="images/image3.jpeg" class="card-img-top" alt="VintageCar3">
+            <div class="card-body">
+              <p class="card-text">Vintage Cadillac. 
+                <br>Type: Classic Sedan <br> Doors: Four</p>
+            </div>
+          </div>
+        </div>
+        <!-- Car 3 ends here -->
+        <!-- Car 4 starts here -->
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="images/image 4.jpeg" class="card-img-top" alt="VintageCar4">
+            <div class="card-body">
+              <p class="card-text">Vintage Volkswagon. 
+                <br>Type: Bus <br> Doors: Four</p>
+            </div>
+          </div>
+        </div>
+        <!-- Car 4 ends here -->
+        
+      </div>
+    </section>
+
+    <!-- Cars listing ends here -->
+
+    <!-- Enquiry starts here -->
+    
+     <section class="container mt-5 enquiriesstyle" id="enquiries">
+      <h4>Enquires About A Car</h4>
+      <form>
+        <div class="mb-3">
+          <label for="fullname" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="fullname">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="disabledSelect" class="form-label">Choose a Car</label>
+          <select id="disabledSelect" class="form-select">
+            <option>Select a car</option>
+          </select>
+        </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Comments</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-secondary">Submit</button>
+      </div>
+    </form>
+  </section>
+    <!-- Enquiry ends here -->
+
+    <!-- Contacts starts here -->
+
+    
+      <section class="container mt-5" id="contact">
+        <h4>Contact Details:</h4>
+
+        <h6>
+    <address>
+      <a>Vintage Car Automotive</a><br>
+      <a>(123) 456-7890</a><br>
+      <a>00, ABC Street, NSW</a><br>
+      <a>(123) 456-7890</a>
+    </address>
+  </h6>
+  <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d211948.4069612834!2d150.81206991640624!3d-33.89753749999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129602f4f0710d%3A0x3a6ac1b6c80b868!2sClassic%20Cars!5e0!3m2!1sen!2sau!4v1630469584716!5m2!1sen!2sau" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+
+      </section>
+    
+    <!-- Contacts ends here -->
+    <!-- Back to top button -->
+    <div class= "align-right">
+    <button type="button" class="btn btn-primary" onclick="topFunction()" id="myBtn" title="Go to top" id="align-right">Back To Top</button>
+    </div>
+    
+    <!-- Footer starts here -->
+      <footer class="footer text-center">All Rights Reserved 2021. Designed By Sarah</footer>
+    <!-- Footer ends here -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
